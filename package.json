@@ -1,0 +1,18 @@
+{
+  "name": "deploy_server",
+  "version": "1.0.0",
+  "description": "fis deploy server for our front end deployment",
+  "main": "fdp_server.js",
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.1",
+    "yauzl": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node fdp_server.js"
+  },
+  "author": "Luventa (luventa@outlook.com)",
+  "license": "MIT"
+}
